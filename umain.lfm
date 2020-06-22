@@ -1,0 +1,224 @@
+object frmMain: TfrmMain
+  Left = 451
+  Height = 775
+  Top = 178
+  Width = 831
+  ActiveControl = Button4
+  Caption = 'MQTT Control'
+  ClientHeight = 775
+  ClientWidth = 831
+  OnClose = FormClose
+  OnCreate = FormCreate
+  LCLVersion = '2.0.6.0'
+  object btnConnectToBroker: TButton
+    Left = 40
+    Height = 25
+    Top = 24
+    Width = 162
+    Caption = 'Connect to Broker'
+    OnClick = btnConnectToBrokerClick
+    TabOrder = 0
+  end
+  object btnSetSubscriber: TButton
+    Left = 40
+    Height = 25
+    Top = 64
+    Width = 163
+    Caption = 'Set Subscriber'
+    OnClick = btnSetSubscriberClick
+    TabOrder = 1
+  end
+  object btnValidateSubscribe: TButton
+    Left = 40
+    Height = 25
+    Top = 104
+    Width = 163
+    Caption = 'Validate Subscribe'
+    OnClick = btnValidateSubscribeClick
+    TabOrder = 2
+  end
+  object Button4: TButton
+    Left = 232
+    Height = 25
+    Top = 24
+    Width = 136
+    Caption = 'Button4'
+    OnClick = Button4Click
+    TabOrder = 3
+  end
+  object Memo_MQTT_RX: TMemo
+    Left = 43
+    Height = 167
+    Top = 184
+    Width = 357
+    Lines.Strings = (
+      'Memo_MQTT'
+    )
+    ScrollBars = ssAutoBoth
+    TabOrder = 4
+  end
+  object toggleOpenWindow: TToggleBox
+    Left = 232
+    Height = 25
+    Top = 63
+    Width = 140
+    Caption = 'OpenWindow'
+    OnChange = toggleOpenWindowChange
+    TabOrder = 5
+  end
+  object toggleCloseWindow: TToggleBox
+    Left = 232
+    Height = 25
+    Top = 104
+    Width = 140
+    Caption = 'CloseWindow'
+    OnChange = toggleCloseWindowChange
+    TabOrder = 6
+  end
+  object cbxItRains: TCheckBox
+    Left = 584
+    Height = 26
+    Top = 23
+    Width = 82
+    Caption = 'it Rains'
+    Enabled = False
+    TabOrder = 7
+  end
+  object cbxWindows1Open: TCheckBox
+    Left = 584
+    Height = 26
+    Top = 63
+    Width = 161
+    Caption = 'Windows 1 is open'
+    Enabled = False
+    TabOrder = 8
+  end
+  object Button1: TButton
+    Left = 424
+    Height = 25
+    Top = 24
+    Width = 112
+    Caption = 'Except-Text'
+    OnClick = Button1Click
+    TabOrder = 9
+  end
+  object btnTestSQLConn: TButton
+    Left = 424
+    Height = 25
+    Top = 64
+    Width = 112
+    Caption = 'Test SQLConnection'
+    OnClick = btnTestSQLConnClick
+    TabOrder = 10
+  end
+  object Memo_Serial_RX: TMemo
+    Left = 43
+    Height = 335
+    Top = 408
+    Width = 358
+    Lines.Strings = (
+      'Memo_Serial_RX'
+    )
+    ScrollBars = ssAutoBoth
+    TabOrder = 11
+  end
+  object lbl_MQTT_Messages: TLabel
+    Left = 43
+    Height = 22
+    Top = 154
+    Width = 122
+    Caption = 'MQTT messages:'
+    ParentColor = False
+  end
+  object Label1: TLabel
+    Left = 48
+    Height = 22
+    Top = 376
+    Width = 105
+    Caption = 'Serial received:'
+    ParentColor = False
+  end
+  object Memo_Serial_TX: TMemo
+    Left = 424
+    Height = 335
+    Top = 408
+    Width = 312
+    Lines.Strings = (
+      'Memo_Serial_TX'
+    )
+    ScrollBars = ssAutoBoth
+    TabOrder = 12
+  end
+  object lbll_Serial_transmitted: TLabel
+    Left = 424
+    Height = 22
+    Top = 376
+    Width = 128
+    Caption = 'Serial transmitted:'
+    ParentColor = False
+  end
+  object Memo_MQTT_TX: TMemo
+    Left = 424
+    Height = 167
+    Top = 184
+    Width = 357
+    Lines.Strings = (
+      'Memo_MQTT'
+    )
+    ScrollBars = ssAutoBoth
+    TabOrder = 13
+  end
+  object TMSMQTTClient: TTMSMQTTClient
+    OnConnectedStatusChanged = TMSMQTTClientConnectedStatusChanged
+    OnPublishReceived = TMSMQTTClientPublishReceived
+    OnSubscriptionAcknowledged = TMSMQTTClientSubscriptionAcknowledged
+    Version = '0.257.0.2'
+    left = 192
+    top = 144
+  end
+  object TimerCheckOpenClose: TTimer
+    Enabled = False
+    OnTimer = TimerCheckOpenCloseTimer
+    left = 484
+    top = 88
+  end
+  object myLazSerial: TLazSerial
+    Active = False
+    BaudRate = br___110
+    DataBits = db8bits
+    Parity = pNone
+    FlowControl = fcNone
+    StopBits = sbOne
+    Device = 'COM1'
+    RcvLineCRLF = False
+    OnRxData = myLazSerialRxData
+    left = 560
+    top = 96
+  end
+  object SQLite3Connection: TSQLite3Connection
+    Connected = False
+    LoginPrompt = False
+    DatabaseName = 'C:\lazarus\Projects\MQTTStart\AirControl.db'
+    KeepConnection = False
+    Transaction = SQLTransaction1
+    left = 760
+    top = 192
+  end
+  object SQLQuery1: TSQLQuery
+    FieldDefs = <>
+    Database = SQLite3Connection
+    Transaction = SQLTransaction1
+    SQL.Strings = (
+      'Select * from Devices;'
+    )
+    Params = <>
+    left = 760
+    top = 56
+  end
+  object SQLTransaction1: TSQLTransaction
+    Active = False
+    Database = SQLite3Connection
+    left = 760
+    top = 120
+  end
+end

@@ -1,0 +1,36 @@
+
+ToDos:
+
+NEXT: WO-Actor direkt über Serial ansprechen
+Dazu muss der Pi-Uno eine Weiterleitung nach Actor bekommen, das ist wohl der 1. Schritt
+
+ Wie Testen, ob Trans oder conn weiter offen sind?
+
+
+
+- Linux - List verfügbarer ComPorts ermitteln (oder einfach Liste bis 10 hochzählen, und schauen was funktioniert)
+        Synaser ScanForPorts()
+- Serial automatisch öffnen  : DONE
+
+- RX-Port-Eingang nach MQTT übersetzen, mittels control.ini  : Done
+
+
+Done:
+2020-06-07
+initDHTSensors_byDB;
+Kurzformen wie R1/DHT auch in Node-Red einbauen. Ggf. Node-Red-File in altem Projekt speichern/ablegen.
+
+2002-06-05
+Table WindowsOpener: Actor mit rein
+Funktionen: PrepareQuery, CloseQuery, vielleicht können dorthin Transaction und Connection ausgelagert werden,
+und schließen über Query.
+
+
+2020-06-04
+- Programm ohne IDE starten, kommt noch Fehler? NEIN
+
+DON'T:
+2020-06-04:
+windowsOpener als Liste?  ==> geht wohl nicht so einfach, es gibt nur ein paar ListenTypen, Pointer wäre die Option, die ich nicht möchte
+
+

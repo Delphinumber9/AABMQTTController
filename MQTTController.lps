@@ -1,0 +1,486 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <Version Value="11"/>
+    <BuildModes Active="Default"/>
+    <Units Count="41">
+      <Unit0>
+        <Filename Value="MQTTController.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="10"/>
+        <CursorPos X="20" Y="12"/>
+        <UsageCount Value="122"/>
+        <Loaded Value="True"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="umain.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="frmMain"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="uMain"/>
+        <IsVisibleTab Value="True"/>
+        <TopLine Value="565"/>
+        <CursorPos X="34" Y="582"/>
+        <UsageCount Value="122"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="uwindowsopener.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="uWindowsOpener"/>
+        <EditorIndex Value="9"/>
+        <UsageCount Value="100"/>
+        <Loaded Value="True"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="uexceptmsg.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="uExceptMsg"/>
+        <EditorIndex Value="11"/>
+        <TopLine Value="257"/>
+        <CursorPos X="11" Y="28"/>
+        <UsageCount Value="99"/>
+        <Loaded Value="True"/>
+      </Unit3>
+      <Unit4>
+        <Filename Value="dht_sensors.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="DHT_Sensors"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="20" Y="17"/>
+        <UsageCount Value="99"/>
+      </Unit4>
+      <Unit5>
+        <Filename Value="myinifile.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="myInifile"/>
+        <EditorIndex Value="8"/>
+        <CursorPos X="36" Y="12"/>
+        <UsageCount Value="90"/>
+        <Loaded Value="True"/>
+      </Unit5>
+      <Unit6>
+        <Filename Value="ToDos.txt"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="6"/>
+        <CursorPos X="11" Y="4"/>
+        <UsageCount Value="74"/>
+        <Loaded Value="True"/>
+        <DefaultSyntaxHighlighter Value="None"/>
+      </Unit6>
+      <Unit7>
+        <Filename Value="VersionHistory.txt"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="7"/>
+        <CursorPos X="23" Y="3"/>
+        <UsageCount Value="74"/>
+        <Loaded Value="True"/>
+        <DefaultSyntaxHighlighter Value="None"/>
+      </Unit7>
+      <Unit8>
+        <Filename Value="globals.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="5"/>
+        <TopLine Value="5"/>
+        <CursorPos X="30" Y="5"/>
+        <UsageCount Value="54"/>
+        <Loaded Value="True"/>
+      </Unit8>
+      <Unit9>
+        <Filename Value="utils.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="4"/>
+        <CursorPos X="50" Y="25"/>
+        <UsageCount Value="51"/>
+        <Loaded Value="True"/>
+      </Unit9>
+      <Unit10>
+        <Filename Value="dbutils.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="3"/>
+        <CursorPos X="30" Y="50"/>
+        <UsageCount Value="51"/>
+        <Loaded Value="True"/>
+      </Unit10>
+      <Unit11>
+        <Filename Value="../../Downloads/Indy10/System/IdGlobal.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="1918"/>
+        <CursorPos X="57" Y="1926"/>
+        <UsageCount Value="13"/>
+      </Unit11>
+      <Unit12>
+        <Filename Value="../../Downloads/TMS MQTT/TMS.MQTT.Global.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="103"/>
+        <CursorPos X="35" Y="101"/>
+        <UsageCount Value="9"/>
+      </Unit12>
+      <Unit13>
+        <Filename Value="../../Downloads/TMS MQTT/TMS.MQTT.Client.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="1164"/>
+        <CursorPos Y="1183"/>
+        <UsageCount Value="15"/>
+      </Unit13>
+      <Unit14>
+        <Filename Value="/usr/share/lazarus/2.0.6/lcl/include/customform.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="136"/>
+        <CursorPos Y="165"/>
+        <UsageCount Value="6"/>
+      </Unit14>
+      <Unit15>
+        <Filename Value="ExceptMsg/uExceptMsg.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="207"/>
+        <CursorPos X="7" Y="236"/>
+        <UsageCount Value="3"/>
+      </Unit15>
+      <Unit16>
+        <Filename Value="uFrmExceptMsg.pas"/>
+        <ComponentName Value="frmError"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="4"/>
+        <CursorPos X="44" Y="61"/>
+        <UsageCount Value="46"/>
+      </Unit16>
+      <Unit17>
+        <Filename Value="../../lcl/include/control.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="2899"/>
+        <CursorPos Y="2915"/>
+        <UsageCount Value="12"/>
+      </Unit17>
+      <Unit18>
+        <Filename Value="../../lcl/include/buttoncontrol.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="27"/>
+        <CursorPos X="14" Y="54"/>
+        <UsageCount Value="3"/>
+      </Unit18>
+      <Unit19>
+        <Filename Value="../../lcl/forms.pp"/>
+        <UnitName Value="Forms"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="1825"/>
+        <CursorPos X="3" Y="1848"/>
+        <UsageCount Value="3"/>
+      </Unit19>
+      <Unit20>
+        <Filename Value="../../fpc/3.0.4/source/packages/fcl-base/src/inifiles.pp"/>
+        <UnitName Value="IniFiles"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="572"/>
+        <CursorPos X="36" Y="611"/>
+        <UsageCount Value="11"/>
+      </Unit20>
+      <Unit21>
+        <Filename Value="../MQTTStart_Save_2020-05-26/uFrmExceptMsg.pas"/>
+        <EditorIndex Value="-1"/>
+        <UsageCount Value="4"/>
+      </Unit21>
+      <Unit22>
+        <Filename Value="../Components/LazSerial-master/LazSerial-master/synaser.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="73"/>
+        <CursorPos X="3" Y="90"/>
+        <UsageCount Value="11"/>
+      </Unit22>
+      <Unit23>
+        <Filename Value="../Components/LazSerial-master/LazSerial-master/lazserial.pas"/>
+        <UnitName Value="LazSerial"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="264"/>
+        <CursorPos Y="272"/>
+        <UsageCount Value="11"/>
+      </Unit23>
+      <Unit24>
+        <Filename Value="../../Downloads/Indy10/System/IdStack.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="124"/>
+        <CursorPos Y="976"/>
+        <UsageCount Value="5"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit24>
+      <Unit25>
+        <Filename Value="/usr/share/lazarus/2.0.6/lcl/include/application.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="2224"/>
+        <CursorPos Y="2254"/>
+        <UsageCount Value="6"/>
+      </Unit25>
+      <Unit26>
+        <Filename Value="/usr/share/lazarus/2.0.6/lcl/include/customdesigncontrol.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="53"/>
+        <CursorPos Y="72"/>
+        <UsageCount Value="6"/>
+      </Unit26>
+      <Unit27>
+        <Filename Value="../../Downloads/TMS MQTT/TMS.MQTT.Client.Threading.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="578"/>
+        <CursorPos X="47" Y="592"/>
+        <UsageCount Value="6"/>
+      </Unit27>
+      <Unit28>
+        <Filename Value="../../lcl/include/application.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="2219"/>
+        <CursorPos Y="2235"/>
+        <UsageCount Value="21"/>
+      </Unit28>
+      <Unit29>
+        <Filename Value="../../components/_eigeneComps/LazSerial-master/LazSerial-master/lazserial.pas"/>
+        <UnitName Value="LazSerial"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="253"/>
+        <CursorPos Y="272"/>
+        <UsageCount Value="11"/>
+      </Unit29>
+      <Unit30>
+        <Filename Value="../../../Users/rs/AppData/Local/lazarus/onlinepackagemanager/packages/Indy10/System/IdStack.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="957"/>
+        <CursorPos X="41" Y="975"/>
+        <UsageCount Value="9"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit30>
+      <Unit31>
+        <Filename Value="../../lcl/customtimer.pas"/>
+        <UnitName Value="CustomTimer"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="156"/>
+        <CursorPos Y="176"/>
+        <UsageCount Value="11"/>
+      </Unit31>
+      <Unit32>
+        <Filename Value="../../fpc/3.0.4/source/rtl/win/wininc/defines.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="1708"/>
+        <CursorPos X="31" Y="1728"/>
+        <UsageCount Value="10"/>
+      </Unit32>
+      <Unit33>
+        <Filename Value="../../fpc/3.0.4/source/rtl/win/wininc/base.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="81"/>
+        <CursorPos X="26" Y="101"/>
+        <UsageCount Value="10"/>
+      </Unit33>
+      <Unit34>
+        <Filename Value="../../fpc/3.0.4/source/rtl/win/sysosh.inc"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="3" Y="19"/>
+        <UsageCount Value="10"/>
+      </Unit34>
+      <Unit35>
+        <Filename Value="../../components/_eigeneComps/LazSerial-master/LazSerial-master/synaser.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="890"/>
+        <CursorPos Y="910"/>
+        <UsageCount Value="10"/>
+      </Unit35>
+      <Unit36>
+        <Filename Value="../../lcl/include/customform.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="920"/>
+        <CursorPos Y="940"/>
+        <UsageCount Value="10"/>
+      </Unit36>
+      <Unit37>
+        <Filename Value="../../../Users/rs/AppData/Local/lazarus/onlinepackagemanager/packages/Indy10/Core/IdIOHandler.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="2183"/>
+        <CursorPos X="51" Y="2205"/>
+        <UsageCount Value="10"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit37>
+      <Unit38>
+        <Filename Value="/usr/share/lazarus/2.0.6/lcl/include/buttoncontrol.inc"/>
+        <EditorIndex Value="1"/>
+        <TopLine Value="31"/>
+        <CursorPos Y="56"/>
+        <UsageCount Value="11"/>
+        <Loaded Value="True"/>
+      </Unit38>
+      <Unit39>
+        <Filename Value="/usr/share/lazarus/2.0.6/lcl/include/customcheckbox.inc"/>
+        <EditorIndex Value="2"/>
+        <TopLine Value="237"/>
+        <CursorPos Y="260"/>
+        <UsageCount Value="11"/>
+        <Loaded Value="True"/>
+      </Unit39>
+      <Unit40>
+        <Filename Value="/usr/share/lazarus/2.0.6/lcl/stdctrls.pp"/>
+        <UnitName Value="StdCtrls"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="966"/>
+        <CursorPos X="3" Y="984"/>
+        <UsageCount Value="10"/>
+      </Unit40>
+    </Units>
+    <JumpHistory Count="30" HistoryIndex="29">
+      <Position1>
+        <Filename Value="umain.pas"/>
+        <Caret Line="890" Column="26" TopLine="857"/>
+      </Position1>
+      <Position2>
+        <Filename Value="umain.pas"/>
+        <Caret Line="857" Column="9" TopLine="752"/>
+      </Position2>
+      <Position3>
+        <Filename Value="umain.pas"/>
+        <Caret Line="873" Column="7" TopLine="859"/>
+      </Position3>
+      <Position4>
+        <Filename Value="umain.pas"/>
+        <Caret Line="800" Column="55" TopLine="774"/>
+      </Position4>
+      <Position5>
+        <Filename Value="umain.pas"/>
+        <Caret Line="792" Column="16" TopLine="767"/>
+      </Position5>
+      <Position6>
+        <Filename Value="umain.pas"/>
+        <Caret Line="805" Column="16" TopLine="776"/>
+      </Position6>
+      <Position7>
+        <Filename Value="utils.pas"/>
+        <Caret Line="25" Column="11"/>
+      </Position7>
+      <Position8>
+        <Filename Value="uwindowsopener.pas"/>
+        <Caret Line="112" Column="50" TopLine="71"/>
+      </Position8>
+      <Position9>
+        <Filename Value="utils.pas"/>
+        <Caret Line="6" Column="62"/>
+      </Position9>
+      <Position10>
+        <Filename Value="umain.pas"/>
+        <Caret Line="792" Column="11" TopLine="774"/>
+      </Position10>
+      <Position11>
+        <Filename Value="umain.pas"/>
+        <Caret Line="18" Column="3"/>
+      </Position11>
+      <Position12>
+        <Filename Value="umain.pas"/>
+        <Caret Line="12" Column="27"/>
+      </Position12>
+      <Position13>
+        <Filename Value="umain.pas"/>
+        <Caret Line="37" Column="21" TopLine="7"/>
+      </Position13>
+      <Position14>
+        <Filename Value="utils.pas"/>
+        <Caret Line="9" Column="30"/>
+      </Position14>
+      <Position15>
+        <Filename Value="utils.pas"/>
+        <Caret Line="5" Column="16"/>
+      </Position15>
+      <Position16>
+        <Filename Value="utils.pas"/>
+        <Caret Column="21"/>
+      </Position16>
+      <Position17>
+        <Filename Value="utils.pas"/>
+        <Caret Line="8"/>
+      </Position17>
+      <Position18>
+        <Filename Value="utils.pas"/>
+        <Caret Line="10" Column="3"/>
+      </Position18>
+      <Position19>
+        <Filename Value="utils.pas"/>
+        <Caret Line="9"/>
+      </Position19>
+      <Position20>
+        <Filename Value="utils.pas"/>
+        <Caret Line="10"/>
+      </Position20>
+      <Position21>
+        <Filename Value="utils.pas"/>
+        <Caret Line="24" Column="9"/>
+      </Position21>
+      <Position22>
+        <Filename Value="utils.pas"/>
+        <Caret Line="25" Column="35"/>
+      </Position22>
+      <Position23>
+        <Filename Value="globals.pas"/>
+        <Caret Line="23" Column="42" TopLine="3"/>
+      </Position23>
+      <Position24>
+        <Filename Value="globals.pas"/>
+        <Caret Line="24" Column="36" TopLine="3"/>
+      </Position24>
+      <Position25>
+        <Filename Value="globals.pas"/>
+        <Caret Line="5" Column="30" TopLine="5"/>
+      </Position25>
+      <Position26>
+        <Filename Value="umain.pas"/>
+        <Caret Line="763" Column="46" TopLine="745"/>
+      </Position26>
+      <Position27>
+        <Filename Value="umain.pas"/>
+        <Caret Line="976" Column="44" TopLine="950"/>
+      </Position27>
+      <Position28>
+        <Filename Value="umain.pas"/>
+        <Caret Line="337" Column="18" TopLine="328"/>
+      </Position28>
+      <Position29>
+        <Filename Value="umain.pas"/>
+        <Caret Line="447" Column="11" TopLine="429"/>
+      </Position29>
+      <Position30>
+        <Filename Value="umain.pas"/>
+        <Caret Line="148" Column="67" TopLine="135"/>
+      </Position30>
+    </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes Count="0" ActiveMode=""/>
+    </RunParams>
+  </ProjectSession>
+  <Debugging>
+    <BreakPoints Count="3">
+      <Item1>
+        <Kind Value="bpkSource"/>
+        <WatchScope Value="wpsLocal"/>
+        <WatchKind Value="wpkWrite"/>
+        <Source Value="ExceptMsg/uExceptMsg.pas"/>
+        <Line Value="195"/>
+      </Item1>
+      <Item2>
+        <Kind Value="bpkSource"/>
+        <WatchScope Value="wpsLocal"/>
+        <WatchKind Value="wpkWrite"/>
+        <Source Value="../../fpc/3.0.4/source/packages/fcl-base/src/inifiles.pp"/>
+        <Line Value="614"/>
+      </Item2>
+      <Item3>
+        <Kind Value="bpkSource"/>
+        <WatchScope Value="wpsLocal"/>
+        <WatchKind Value="wpkWrite"/>
+        <Source Value="uwindowsopener.pas"/>
+        <Line Value="181"/>
+      </Item3>
+    </BreakPoints>
+    <Watches Count="1">
+      <Item1>
+        <Expression Value="sSend"/>
+      </Item1>
+    </Watches>
+  </Debugging>
+</CONFIG>

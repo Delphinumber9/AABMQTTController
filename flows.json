@@ -1,0 +1,1234 @@
+[
+    {
+        "id": "3b77a552.09ac9a",
+        "type": "tab",
+        "label": "Lüftersteuerung",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "a6af16b8.f06628",
+        "type": "tab",
+        "label": "Dashboard",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "98df1343.16558",
+        "type": "ui_group",
+        "z": "",
+        "name": "Steuerung",
+        "tab": "598fcfce.fac968",
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "d39851d3.c4c46",
+        "type": "ui_group",
+        "z": "",
+        "name": "Auswertung",
+        "tab": "598fcfce.fac968",
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "d8c9813e.ac2b6",
+        "type": "mqtt-broker",
+        "z": "",
+        "name": "lokaler MQTT-Server",
+        "broker": "127.0.0.1",
+        "port": "1883",
+        "clientid": "",
+        "usetls": false,
+        "compatmode": true,
+        "keepalive": "60",
+        "cleansession": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthPayload": "",
+        "closeTopic": "",
+        "closeQos": "0",
+        "closePayload": "",
+        "willTopic": "",
+        "willQos": "0",
+        "willPayload": ""
+    },
+    {
+        "id": "ca19b2f3.23b69",
+        "type": "ui_tab",
+        "z": "",
+        "name": "StartTab",
+        "icon": "dashboard",
+        "order": 1,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "fc42e15c.7b49f",
+        "type": "mqtt-broker",
+        "z": "",
+        "name": "lokaler MQTT-Server",
+        "broker": "127.0.0.1",
+        "port": "1883",
+        "clientid": "",
+        "usetls": false,
+        "compatmode": true,
+        "keepalive": "60",
+        "cleansession": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthPayload": "",
+        "closeTopic": "",
+        "closeQos": "0",
+        "closePayload": "",
+        "willTopic": "",
+        "willQos": "0",
+        "willPayload": ""
+    },
+    {
+        "id": "189fc26b.c6363e",
+        "type": "ui_group",
+        "z": "",
+        "name": "Aussen",
+        "tab": "953d009e.9d7ba8",
+        "order": 2,
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "4a77ef70.b23e28",
+        "type": "ui_group",
+        "z": "",
+        "name": "Innen R1",
+        "tab": "953d009e.9d7ba8",
+        "order": 3,
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "89568f86.2864a",
+        "type": "ui_group",
+        "z": "",
+        "name": "Fenster_R1",
+        "tab": "953d009e.9d7ba8",
+        "order": 4,
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "953d009e.9d7ba8",
+        "type": "ui_tab",
+        "z": "",
+        "name": "Lüftersteuerung",
+        "icon": "dashboard",
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "b9bc128e.06cb08",
+        "type": "ui_group",
+        "z": "",
+        "name": "Auswahl",
+        "tab": "953d009e.9d7ba8",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "598fcfce.fac968",
+        "type": "ui_tab",
+        "z": "",
+        "name": "StartTab2",
+        "icon": "dashboard",
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "9a4ecb3.fffb538",
+        "type": "ui_base",
+        "theme": {
+            "name": "theme-light",
+            "lightTheme": {
+                "default": "#0094CE",
+                "baseColor": "#0094CE",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": true,
+                "reset": false
+            },
+            "darkTheme": {
+                "default": "#097479",
+                "baseColor": "#097479",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": false
+            },
+            "customTheme": {
+                "name": "Untitled Theme 1",
+                "default": "#4B7930",
+                "baseColor": "#4B7930",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+            },
+            "themeState": {
+                "base-color": {
+                    "default": "#0094CE",
+                    "value": "#0094CE",
+                    "edited": false
+                },
+                "page-titlebar-backgroundColor": {
+                    "value": "#0094CE",
+                    "edited": false
+                },
+                "page-backgroundColor": {
+                    "value": "#fafafa",
+                    "edited": false
+                },
+                "page-sidebar-backgroundColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "group-textColor": {
+                    "value": "#1bbfff",
+                    "edited": false
+                },
+                "group-borderColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "group-backgroundColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "widget-textColor": {
+                    "value": "#111111",
+                    "edited": false
+                },
+                "widget-backgroundColor": {
+                    "value": "#0094ce",
+                    "edited": false
+                },
+                "widget-borderColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "base-font": {
+                    "value": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+                }
+            },
+            "angularTheme": {
+                "primary": "indigo",
+                "accents": "blue",
+                "warn": "red",
+                "background": "grey"
+            }
+        },
+        "site": {
+            "name": "Node-RED Dashboard",
+            "hideToolbar": "false",
+            "allowSwipe": "false",
+            "lockMenu": "false",
+            "allowTempTheme": "true",
+            "dateFormat": "DD/MM/YYYY",
+            "sizes": {
+                "sx": 48,
+                "sy": 48,
+                "gx": 6,
+                "gy": 6,
+                "cx": 6,
+                "cy": 6,
+                "px": 0,
+                "py": 0
+            }
+        }
+    },
+    {
+        "id": "93060f6d.8b4c9",
+        "type": "ui_button",
+        "z": "a6af16b8.f06628",
+        "name": "",
+        "group": "98df1343.16558",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "LED ein",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "icon": "",
+        "payload": "255",
+        "payloadType": "num",
+        "topic": "",
+        "x": 104,
+        "y": 61,
+        "wires": [
+            [
+                "456061ed.c4c6c"
+            ]
+        ]
+    },
+    {
+        "id": "326b862f.de2c3a",
+        "type": "ui_button",
+        "z": "a6af16b8.f06628",
+        "name": "",
+        "group": "98df1343.16558",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "LED aus",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "icon": "",
+        "payload": "-1",
+        "payloadType": "num",
+        "topic": "",
+        "x": 98,
+        "y": 133,
+        "wires": [
+            [
+                "456061ed.c4c6c"
+            ]
+        ]
+    },
+    {
+        "id": "456061ed.c4c6c",
+        "type": "ui_slider",
+        "z": "a6af16b8.f06628",
+        "name": "",
+        "label": "LED-Helligkeit",
+        "tooltip": "",
+        "group": "98df1343.16558",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "outs": "all",
+        "topic": "",
+        "min": 0,
+        "max": "255",
+        "step": 1,
+        "x": 277,
+        "y": 97,
+        "wires": [
+            [
+                "2f9cf00f.ff33b"
+            ]
+        ]
+    },
+    {
+        "id": "2f9cf00f.ff33b",
+        "type": "function",
+        "z": "a6af16b8.f06628",
+        "name": "fuehrende Nullen",
+        "func": "var Eingabe = msg.payload;\n\nif (Eingabe < 100)\n  msg.Payload = '0' + msg.payload;\nif (Eingabe < 10)\n  msg.Payload = '0' + msg.payload;\n  \nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 290,
+        "y": 210,
+        "wires": [
+            [
+                "2240ff5e.1c6c2",
+                "d78fc110.77348"
+            ]
+        ]
+    },
+    {
+        "id": "d78fc110.77348",
+        "type": "ui_text",
+        "z": "a6af16b8.f06628",
+        "group": "98df1343.16558",
+        "order": 4,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Aktueller Wert:",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "x": 509,
+        "y": 243,
+        "wires": []
+    },
+    {
+        "id": "a54c32dc.ca06c",
+        "type": "ui_gauge",
+        "z": "a6af16b8.f06628",
+        "name": "Analoge Anzeige",
+        "group": "d39851d3.c4c46",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "Zeiger",
+        "label": "units",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "1023",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "400",
+        "seg2": "600",
+        "x": 511,
+        "y": 371,
+        "wires": []
+    },
+    {
+        "id": "5738cc33.8df244",
+        "type": "ui_chart",
+        "z": "a6af16b8.f06628",
+        "name": "",
+        "group": "d39851d3.c4c46",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "label": "Diagramm",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "",
+        "ymax": "1200",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "3600",
+        "cutout": 0,
+        "useOneColor": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "useOldStyle": false,
+        "outputs": 1,
+        "x": 489,
+        "y": 460,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "2240ff5e.1c6c2",
+        "type": "mqtt out",
+        "z": "a6af16b8.f06628",
+        "name": "",
+        "topic": "Arduino/LED",
+        "qos": "",
+        "retain": "",
+        "broker": "d8c9813e.ac2b6",
+        "x": 505,
+        "y": 127,
+        "wires": []
+    },
+    {
+        "id": "f562369a.be6f38",
+        "type": "mqtt in",
+        "z": "a6af16b8.f06628",
+        "name": "",
+        "topic": "Arduino/Analogwert",
+        "qos": "2",
+        "datatype": "auto",
+        "broker": "d8c9813e.ac2b6",
+        "x": 281,
+        "y": 410,
+        "wires": [
+            [
+                "a54c32dc.ca06c",
+                "5738cc33.8df244"
+            ]
+        ]
+    },
+    {
+        "id": "42e67162.336f2",
+        "type": "inject",
+        "z": "a6af16b8.f06628",
+        "name": "",
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "x": 182,
+        "y": 563,
+        "wires": [
+            [
+                "8b96073b.9fa168"
+            ]
+        ]
+    },
+    {
+        "id": "7ca54bfa.580d34",
+        "type": "debug",
+        "z": "a6af16b8.f06628",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "x": 671,
+        "y": 560,
+        "wires": []
+    },
+    {
+        "id": "8b96073b.9fa168",
+        "type": "function",
+        "z": "a6af16b8.f06628",
+        "name": "Konvertierung",
+        "func": "// Erstellung eines Datum-Objektes \n// über die empfangene msg.payload\nvar date = new Date(msg.payload);\n// Konvertierung der Payload in einen formatierten String\nmsg.payload = date.toString();\n//\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 433,
+        "y": 562,
+        "wires": [
+            [
+                "7ca54bfa.580d34"
+            ]
+        ]
+    },
+    {
+        "id": "f6079f69.b19f3",
+        "type": "join",
+        "z": "a6af16b8.f06628",
+        "name": "",
+        "mode": "custom",
+        "build": "string",
+        "property": "payload",
+        "propertyType": "msg",
+        "key": "topic",
+        "joiner": "\\n",
+        "joinerType": "str",
+        "accumulate": false,
+        "timeout": "",
+        "count": "",
+        "reduceRight": false,
+        "reduceExp": "",
+        "reduceInit": "",
+        "reduceInitType": "num",
+        "reduceFixup": "",
+        "x": 413,
+        "y": 704,
+        "wires": [
+            [
+                "dd9b3e44.54764"
+            ]
+        ]
+    },
+    {
+        "id": "dd9b3e44.54764",
+        "type": "debug",
+        "z": "a6af16b8.f06628",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "x": 680,
+        "y": 692,
+        "wires": []
+    },
+    {
+        "id": "7aeaca20.521624",
+        "type": "inject",
+        "z": "a6af16b8.f06628",
+        "name": "",
+        "topic": "",
+        "payload": "15",
+        "payloadType": "num",
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "x": 139,
+        "y": 697,
+        "wires": [
+            [
+                "f6079f69.b19f3"
+            ]
+        ]
+    },
+    {
+        "id": "7904a006.f2b63",
+        "type": "inject",
+        "z": "a6af16b8.f06628",
+        "name": "",
+        "topic": "",
+        "payload": "20",
+        "payloadType": "num",
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "x": 134,
+        "y": 764,
+        "wires": [
+            [
+                "f6079f69.b19f3"
+            ]
+        ]
+    },
+    {
+        "id": "cb4cc258.4a354",
+        "type": "inject",
+        "z": "a6af16b8.f06628",
+        "name": "msg.complete",
+        "topic": "",
+        "payload": "msg.complete",
+        "payloadType": "env",
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "x": 156,
+        "y": 855,
+        "wires": [
+            [
+                "f6079f69.b19f3"
+            ]
+        ]
+    },
+    {
+        "id": "4b339ce5.28391c",
+        "type": "mqtt in",
+        "z": "3b77a552.09ac9a",
+        "name": "",
+        "topic": "Out/DHT",
+        "qos": "2",
+        "datatype": "auto",
+        "broker": "fc42e15c.7b49f",
+        "x": 80,
+        "y": 100,
+        "wires": [
+            [
+                "e2401fb6.bc261"
+            ]
+        ]
+    },
+    {
+        "id": "101d78ed.302ce7",
+        "type": "ui_gauge",
+        "z": "3b77a552.09ac9a",
+        "name": "Aussensensor Temp",
+        "group": "189fc26b.c6363e",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "Temperatur",
+        "label": "°C",
+        "format": "{{value}}",
+        "min": "-20",
+        "max": "50",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "x": 1020,
+        "y": 80,
+        "wires": []
+    },
+    {
+        "id": "71c1b589.b95b74",
+        "type": "ui_gauge",
+        "z": "3b77a552.09ac9a",
+        "name": "Luftfeuchte",
+        "group": "189fc26b.c6363e",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "Relative Luftfeuchte",
+        "label": "%",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "100",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "x": 990,
+        "y": 120,
+        "wires": []
+    },
+    {
+        "id": "4658d088.059378",
+        "type": "ui_gauge",
+        "z": "3b77a552.09ac9a",
+        "name": "",
+        "group": "189fc26b.c6363e",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "Absolute Luftfeuchte",
+        "label": "g / qqm",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "100",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "x": 1020,
+        "y": 160,
+        "wires": []
+    },
+    {
+        "id": "9db5320c.8b6608",
+        "type": "inject",
+        "z": "3b77a552.09ac9a",
+        "name": "",
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "x": 180,
+        "y": 840,
+        "wires": [
+            [
+                "e5d79406.f24ec8"
+            ]
+        ]
+    },
+    {
+        "id": "11f175d1.cb2222",
+        "type": "function",
+        "z": "3b77a552.09ac9a",
+        "name": "Create new JSON Message - S. 101",
+        "func": "context.data = context.data || {};\nswitch(msg.parts.index)\n{\n    case 0:\n        context.data.Data1 = parseFloat(msg.payload);\n        msg = null;\n        break;\n    case 1:\n        context.data.Data2 = parseFloat(msg.payload);\n        msg = null;\n        break;\n    case 2:\n        context.data.Data3 = parseFloat(msg.payload);\n        msg = null;\n        break;\n}\n\nisValid = context.data.Data1 &&\n          context.data.Data2 &&\n          context.data.Data3;\n          \nif (isValid)          \n{\n    var date = new Date();\n    var datestring = date.getFullYear() +\n               \"-\" + (\"0\"+(date.getMonth() + 1)).slice(-2) +\n               \"-\" + (\"0\" + date.getDate()).slice(-2) +\n               \" \" + (\"0\" + date.getHours()).slice(-2) +\n               \":\" + (\"0\" + date.getMinutes()).slice(-2)+\n               \":\" + (\"0\" + date.getSeconds()).slice(-2)+\n               \".\" + (\"0\" + date.getMilliseconds()).slice(-3);\n    \n    context.data.Time = datestring; // time.toString();\n    newMsg = {payload: context.data, topic: 'TH_rel abs'};\n    context.data = null;\n    return newMsg;\n}\nelse\n  return msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 470,
+        "y": 980,
+        "wires": [
+            [
+                "60127b0c.bda03c"
+            ]
+        ]
+    },
+    {
+        "id": "663838a4.d24d7",
+        "type": "inject",
+        "z": "3b77a552.09ac9a",
+        "name": "DHT Simulator",
+        "topic": "",
+        "payload": "21.60/49.40/9.38",
+        "payloadType": "str",
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "x": 200,
+        "y": 920,
+        "wires": [
+            [
+                "c9b71166.f215"
+            ]
+        ]
+    },
+    {
+        "id": "7ac2cfac.6ff258",
+        "type": "debug",
+        "z": "3b77a552.09ac9a",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "x": 1010,
+        "y": 900,
+        "wires": []
+    },
+    {
+        "id": "c9b71166.f215",
+        "type": "split",
+        "z": "3b77a552.09ac9a",
+        "name": "Split \"/\" - S. 98",
+        "splt": "/",
+        "spltType": "str",
+        "arraySplt": 1,
+        "arraySpltType": "len",
+        "stream": false,
+        "addname": "",
+        "x": 200,
+        "y": 980,
+        "wires": [
+            [
+                "11f175d1.cb2222"
+            ]
+        ]
+    },
+    {
+        "id": "e5d79406.f24ec8",
+        "type": "function",
+        "z": "3b77a552.09ac9a",
+        "name": "DateTime-Konvertierung",
+        "func": "// Erstellung eines Datum-Objektes \n// über die empfangene msg.payload\nvar date = new Date(msg.payload);\n// aus INet\nvar datestring = (\"0\" + date.getDate()).slice(-2) \n               + \"-\" + (\"0\"+(date.getMonth()+1)).slice(-2) \n               + \"-\" + date.getFullYear() \n               + \" \" + (\"0\" + date.getHours()).slice(-2) \n               + \":\" + (\"0\" + date.getMinutes()).slice(-2)\n               + \":\" + (\"0\" + date.getSeconds()).slice(-2)\n               + \".\" + (\"0\" + date.getMilliseconds()).slice(-3);\n// Konvertierung der Payload in einen formatierten String\n// msg.payload = date.toLocaleString();\n// msg.payload = date.toString().format('YYYY-MM-DD HH:m:s');\nmsg.payload = datestring;\n//\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 470,
+        "y": 840,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "60127b0c.bda03c",
+        "type": "function",
+        "z": "3b77a552.09ac9a",
+        "name": "Split to Gauges",
+        "func": "var D1 = {payload: msg.payload.Data1};\nvar D2 = {payload: msg.payload.Data2};\nvar D3 = {payload: msg.payload.Data3};\nvar time = {payload: msg.payload.Time};\n\nreturn [D1, D2, D3, time];",
+        "outputs": 4,
+        "noerr": 0,
+        "x": 780,
+        "y": 980,
+        "wires": [
+            [
+                "7ac2cfac.6ff258"
+            ],
+            [
+                "796875e8.30f19c"
+            ],
+            [
+                "a197df16.13f82"
+            ],
+            [
+                "f5233ab0.1c91a"
+            ]
+        ]
+    },
+    {
+        "id": "796875e8.30f19c",
+        "type": "debug",
+        "z": "3b77a552.09ac9a",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "x": 1030,
+        "y": 940,
+        "wires": []
+    },
+    {
+        "id": "a197df16.13f82",
+        "type": "debug",
+        "z": "3b77a552.09ac9a",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "x": 1010,
+        "y": 980,
+        "wires": []
+    },
+    {
+        "id": "f5233ab0.1c91a",
+        "type": "debug",
+        "z": "3b77a552.09ac9a",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "x": 1010,
+        "y": 1020,
+        "wires": []
+    },
+    {
+        "id": "e2401fb6.bc261",
+        "type": "split",
+        "z": "3b77a552.09ac9a",
+        "name": "Split \"/\" - S. 98",
+        "splt": "/",
+        "spltType": "str",
+        "arraySplt": 1,
+        "arraySpltType": "len",
+        "stream": false,
+        "addname": "",
+        "x": 360,
+        "y": 100,
+        "wires": [
+            [
+                "d48a1487.ee0fc"
+            ]
+        ]
+    },
+    {
+        "id": "d48a1487.ee0fc",
+        "type": "function",
+        "z": "3b77a552.09ac9a",
+        "name": "New payload - S. 101",
+        "func": "context.data = context.data || {};\nswitch(msg.parts.index)\n{\n    case 0:\n        context.data.Data1 = parseFloat(msg.payload);\n        msg = null;\n        break;\n    case 1:\n        context.data.Data2 = parseFloat(msg.payload);\n        msg = null;\n        break;\n    case 2:\n        context.data.Data3 = parseFloat(msg.payload);\n        msg = null;\n        break;\n}\n\nisValid = context.data.Data1 &&\n          context.data.Data2 &&\n          context.data.Data3;\n          \nif (isValid)          \n{\n    var date = new Date();\n    var datestring = date.getFullYear() +\n               \"-\" + (\"0\"+(date.getMonth() + 1)).slice(-2) +\n               \"-\" + (\"0\" + date.getDate()).slice(-2) +\n               \" \" + (\"0\" + date.getHours()).slice(-2) +\n               \":\" + (\"0\" + date.getMinutes()).slice(-2)+\n               \":\" + (\"0\" + date.getSeconds()).slice(-2)+\n               \".\" + (\"0\" + date.getMilliseconds()).slice(-3);\n    \n    context.data.Time = datestring; // time.toString();\n    newMsg = {payload: context.data, topic: 'TH_rel abs'};\n    context.data = null;\n    return newMsg;\n}\nelse\n  return msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 560,
+        "y": 100,
+        "wires": [
+            [
+                "7a7fe60c.255128"
+            ]
+        ]
+    },
+    {
+        "id": "7a7fe60c.255128",
+        "type": "function",
+        "z": "3b77a552.09ac9a",
+        "name": "Split to Gauges",
+        "func": "var D1 = {payload: msg.payload.Data1};\nvar D2 = {payload: msg.payload.Data2};\nvar D3 = {payload: msg.payload.Data3};\nvar time = {payload: msg.payload.Time};\n\nreturn [D1, D2, D3, time];",
+        "outputs": 4,
+        "noerr": 0,
+        "x": 760,
+        "y": 100,
+        "wires": [
+            [
+                "101d78ed.302ce7"
+            ],
+            [
+                "71c1b589.b95b74"
+            ],
+            [
+                "4658d088.059378"
+            ],
+            [
+                "6ad754fc.657d2c"
+            ]
+        ]
+    },
+    {
+        "id": "6ad754fc.657d2c",
+        "type": "ui_text",
+        "z": "3b77a552.09ac9a",
+        "group": "189fc26b.c6363e",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Timestamp:",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "x": 990,
+        "y": 200,
+        "wires": []
+    },
+    {
+        "id": "fa02ca20.c123a8",
+        "type": "inject",
+        "z": "3b77a552.09ac9a",
+        "name": "",
+        "topic": "Arduino/LED",
+        "payload": "25",
+        "payloadType": "num",
+        "repeat": "4",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "x": 190,
+        "y": 740,
+        "wires": [
+            [
+                "fba8ef0.32a541"
+            ]
+        ]
+    },
+    {
+        "id": "fba8ef0.32a541",
+        "type": "mqtt out",
+        "z": "3b77a552.09ac9a",
+        "name": "",
+        "topic": "Arduino/LED",
+        "qos": "",
+        "retain": "",
+        "broker": "fc42e15c.7b49f",
+        "x": 430,
+        "y": 740,
+        "wires": []
+    },
+    {
+        "id": "e7d525b9.39f8c8",
+        "type": "mqtt in",
+        "z": "3b77a552.09ac9a",
+        "name": "",
+        "topic": "R1/DHT",
+        "qos": "2",
+        "datatype": "auto",
+        "broker": "fc42e15c.7b49f",
+        "x": 70,
+        "y": 380,
+        "wires": [
+            [
+                "540386a3.b1b7f8"
+            ]
+        ]
+    },
+    {
+        "id": "540386a3.b1b7f8",
+        "type": "split",
+        "z": "3b77a552.09ac9a",
+        "name": "Split \"/\" - S. 98",
+        "splt": "/",
+        "spltType": "str",
+        "arraySplt": 1,
+        "arraySpltType": "len",
+        "stream": false,
+        "addname": "",
+        "x": 360,
+        "y": 380,
+        "wires": [
+            [
+                "4968d013.b22cc8"
+            ]
+        ]
+    },
+    {
+        "id": "4968d013.b22cc8",
+        "type": "function",
+        "z": "3b77a552.09ac9a",
+        "name": "New payload - S. 101",
+        "func": "context.data = context.data || {};\nswitch(msg.parts.index)\n{\n    case 0:\n        context.data.Data1 = parseFloat(msg.payload);\n        msg = null;\n        break;\n    case 1:\n        context.data.Data2 = parseFloat(msg.payload);\n        msg = null;\n        break;\n    case 2:\n        context.data.Data3 = parseFloat(msg.payload);\n        msg = null;\n        break;\n}\n\nisValid = context.data.Data1 &&\n          context.data.Data2 &&\n          context.data.Data3;\n          \nif (isValid)          \n{\n    var date = new Date();\n    var datestring = date.getFullYear() +\n               \"-\" + (\"0\"+(date.getMonth() + 1)).slice(-2) +\n               \"-\" + (\"0\" + date.getDate()).slice(-2) +\n               \" \" + (\"0\" + date.getHours()).slice(-2) +\n               \":\" + (\"0\" + date.getMinutes()).slice(-2)+\n               \":\" + (\"0\" + date.getSeconds()).slice(-2)+\n               \".\" + (\"0\" + date.getMilliseconds()).slice(-3);\n    \n    context.data.Time = datestring; // time.toString();\n    newMsg = {payload: context.data, topic: 'TH_rel abs'};\n    context.data = null;\n    return newMsg;\n}\nelse\n  return msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 560,
+        "y": 380,
+        "wires": [
+            [
+                "502b426f.20dfac"
+            ]
+        ]
+    },
+    {
+        "id": "502b426f.20dfac",
+        "type": "function",
+        "z": "3b77a552.09ac9a",
+        "name": "Split to Gauges",
+        "func": "var D1 = {payload: msg.payload.Data1};\nvar D2 = {payload: msg.payload.Data2};\nvar D3 = {payload: msg.payload.Data3};\nvar time = {payload: msg.payload.Time};\n\nreturn [D1, D2, D3, time];",
+        "outputs": 4,
+        "noerr": 0,
+        "x": 760,
+        "y": 380,
+        "wires": [
+            [
+                "1ab47c12.92e794"
+            ],
+            [
+                "82a9ffd7.ef72f"
+            ],
+            [
+                "60f2c39e.e1fd5c"
+            ],
+            [
+                "2fabbaf5.670e66"
+            ]
+        ]
+    },
+    {
+        "id": "1ab47c12.92e794",
+        "type": "ui_gauge",
+        "z": "3b77a552.09ac9a",
+        "name": "Innensensor R1 Temp",
+        "group": "4a77ef70.b23e28",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "Temperatur",
+        "label": "°C",
+        "format": "{{value}}",
+        "min": "-20",
+        "max": "50",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "x": 1020,
+        "y": 360,
+        "wires": []
+    },
+    {
+        "id": "82a9ffd7.ef72f",
+        "type": "ui_gauge",
+        "z": "3b77a552.09ac9a",
+        "name": "Luftfeuchte",
+        "group": "4a77ef70.b23e28",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "Relative Luftfeuchte",
+        "label": "%",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "100",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "x": 990,
+        "y": 400,
+        "wires": []
+    },
+    {
+        "id": "60f2c39e.e1fd5c",
+        "type": "ui_gauge",
+        "z": "3b77a552.09ac9a",
+        "name": "",
+        "group": "4a77ef70.b23e28",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "Absolute Luftfeuchte",
+        "label": "g / qqm",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "100",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "x": 1020,
+        "y": 440,
+        "wires": []
+    },
+    {
+        "id": "2fabbaf5.670e66",
+        "type": "ui_text",
+        "z": "3b77a552.09ac9a",
+        "group": "4a77ef70.b23e28",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Timestamp:",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "x": 990,
+        "y": 480,
+        "wires": []
+    },
+    {
+        "id": "a04da528.4d0838",
+        "type": "mqtt in",
+        "z": "3b77a552.09ac9a",
+        "name": "",
+        "topic": "R1/WO",
+        "qos": "2",
+        "datatype": "auto",
+        "broker": "fc42e15c.7b49f",
+        "x": 70,
+        "y": 500,
+        "wires": [
+            [
+                "f6cd7fdf.a0ff"
+            ]
+        ]
+    },
+    {
+        "id": "f6cd7fdf.a0ff",
+        "type": "ui_text",
+        "z": "3b77a552.09ac9a",
+        "group": "89568f86.2864a",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "OpenClose:",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "x": 390,
+        "y": 500,
+        "wires": []
+    },
+    {
+        "id": "a8db3fa1.67cdc8",
+        "type": "ui_switch",
+        "z": "3b77a552.09ac9a",
+        "name": "mySwitch",
+        "label": "switch",
+        "tooltip": "",
+        "group": "b9bc128e.06cb08",
+        "order": 4,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "decouple": "false",
+        "topic": "switch",
+        "style": "",
+        "onvalue": "true",
+        "onvalueType": "bool",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "false",
+        "offvalueType": "bool",
+        "officon": "",
+        "offcolor": "",
+        "x": 100,
+        "y": 200,
+        "wires": [
+            [
+                "9fb4321f.678c98"
+            ]
+        ]
+    },
+    {
+        "id": "9fb4321f.678c98",
+        "type": "ui_text",
+        "z": "3b77a552.09ac9a",
+        "group": "b9bc128e.06cb08",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "text",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "x": 310,
+        "y": 200,
+        "wires": []
+    }
+]

@@ -7,7 +7,7 @@
       <Unit0>
         <Filename Value="MQTTController.lpr"/>
         <IsPartOfProject Value="True"/>
-        <EditorIndex Value="10"/>
+        <EditorIndex Value="8"/>
         <CursorPos X="20" Y="12"/>
         <UsageCount Value="122"/>
         <Loaded Value="True"/>
@@ -19,9 +19,8 @@
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="uMain"/>
-        <IsVisibleTab Value="True"/>
-        <TopLine Value="565"/>
-        <CursorPos X="34" Y="582"/>
+        <TopLine Value="519"/>
+        <CursorPos X="74" Y="539"/>
         <UsageCount Value="122"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
@@ -30,7 +29,7 @@
         <Filename Value="uwindowsopener.pas"/>
         <IsPartOfProject Value="True"/>
         <UnitName Value="uWindowsOpener"/>
-        <EditorIndex Value="9"/>
+        <EditorIndex Value="7"/>
         <UsageCount Value="100"/>
         <Loaded Value="True"/>
       </Unit2>
@@ -38,9 +37,10 @@
         <Filename Value="uexceptmsg.pas"/>
         <IsPartOfProject Value="True"/>
         <UnitName Value="uExceptMsg"/>
-        <EditorIndex Value="11"/>
-        <TopLine Value="257"/>
-        <CursorPos X="11" Y="28"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="9"/>
+        <TopLine Value="176"/>
+        <CursorPos X="61" Y="196"/>
         <UsageCount Value="99"/>
         <Loaded Value="True"/>
       </Unit3>
@@ -56,7 +56,7 @@
         <Filename Value="myinifile.pas"/>
         <IsPartOfProject Value="True"/>
         <UnitName Value="myInifile"/>
-        <EditorIndex Value="8"/>
+        <EditorIndex Value="6"/>
         <CursorPos X="36" Y="12"/>
         <UsageCount Value="90"/>
         <Loaded Value="True"/>
@@ -64,7 +64,7 @@
       <Unit6>
         <Filename Value="ToDos.txt"/>
         <IsPartOfProject Value="True"/>
-        <EditorIndex Value="6"/>
+        <EditorIndex Value="4"/>
         <CursorPos X="11" Y="4"/>
         <UsageCount Value="74"/>
         <Loaded Value="True"/>
@@ -73,7 +73,7 @@
       <Unit7>
         <Filename Value="VersionHistory.txt"/>
         <IsPartOfProject Value="True"/>
-        <EditorIndex Value="7"/>
+        <EditorIndex Value="5"/>
         <CursorPos X="23" Y="3"/>
         <UsageCount Value="74"/>
         <Loaded Value="True"/>
@@ -82,7 +82,7 @@
       <Unit8>
         <Filename Value="globals.pas"/>
         <IsPartOfProject Value="True"/>
-        <EditorIndex Value="5"/>
+        <EditorIndex Value="3"/>
         <TopLine Value="5"/>
         <CursorPos X="30" Y="5"/>
         <UsageCount Value="54"/>
@@ -91,7 +91,7 @@
       <Unit9>
         <Filename Value="utils.pas"/>
         <IsPartOfProject Value="True"/>
-        <EditorIndex Value="4"/>
+        <EditorIndex Value="2"/>
         <CursorPos X="50" Y="25"/>
         <UsageCount Value="51"/>
         <Loaded Value="True"/>
@@ -99,7 +99,7 @@
       <Unit10>
         <Filename Value="dbutils.pas"/>
         <IsPartOfProject Value="True"/>
-        <EditorIndex Value="3"/>
+        <EditorIndex Value="1"/>
         <CursorPos X="30" Y="50"/>
         <UsageCount Value="51"/>
         <Loaded Value="True"/>
@@ -303,19 +303,17 @@
       </Unit37>
       <Unit38>
         <Filename Value="/usr/share/lazarus/2.0.6/lcl/include/buttoncontrol.inc"/>
-        <EditorIndex Value="1"/>
+        <EditorIndex Value="-1"/>
         <TopLine Value="31"/>
         <CursorPos Y="56"/>
         <UsageCount Value="11"/>
-        <Loaded Value="True"/>
       </Unit38>
       <Unit39>
         <Filename Value="/usr/share/lazarus/2.0.6/lcl/include/customcheckbox.inc"/>
-        <EditorIndex Value="2"/>
+        <EditorIndex Value="-1"/>
         <TopLine Value="237"/>
         <CursorPos Y="260"/>
         <UsageCount Value="11"/>
-        <Loaded Value="True"/>
       </Unit39>
       <Unit40>
         <Filename Value="/usr/share/lazarus/2.0.6/lcl/stdctrls.pp"/>
@@ -329,123 +327,123 @@
     <JumpHistory Count="30" HistoryIndex="29">
       <Position1>
         <Filename Value="umain.pas"/>
-        <Caret Line="890" Column="26" TopLine="857"/>
+        <Caret Line="857" Column="9" TopLine="752"/>
       </Position1>
       <Position2>
         <Filename Value="umain.pas"/>
-        <Caret Line="857" Column="9" TopLine="752"/>
+        <Caret Line="873" Column="7" TopLine="859"/>
       </Position2>
       <Position3>
         <Filename Value="umain.pas"/>
-        <Caret Line="873" Column="7" TopLine="859"/>
+        <Caret Line="800" Column="55" TopLine="774"/>
       </Position3>
       <Position4>
         <Filename Value="umain.pas"/>
-        <Caret Line="800" Column="55" TopLine="774"/>
+        <Caret Line="792" Column="16" TopLine="767"/>
       </Position4>
       <Position5>
         <Filename Value="umain.pas"/>
-        <Caret Line="792" Column="16" TopLine="767"/>
+        <Caret Line="805" Column="16" TopLine="776"/>
       </Position5>
       <Position6>
-        <Filename Value="umain.pas"/>
-        <Caret Line="805" Column="16" TopLine="776"/>
-      </Position6>
-      <Position7>
         <Filename Value="utils.pas"/>
         <Caret Line="25" Column="11"/>
-      </Position7>
-      <Position8>
+      </Position6>
+      <Position7>
         <Filename Value="uwindowsopener.pas"/>
         <Caret Line="112" Column="50" TopLine="71"/>
-      </Position8>
-      <Position9>
+      </Position7>
+      <Position8>
         <Filename Value="utils.pas"/>
         <Caret Line="6" Column="62"/>
+      </Position8>
+      <Position9>
+        <Filename Value="umain.pas"/>
+        <Caret Line="792" Column="11" TopLine="774"/>
       </Position9>
       <Position10>
         <Filename Value="umain.pas"/>
-        <Caret Line="792" Column="11" TopLine="774"/>
+        <Caret Line="18" Column="3"/>
       </Position10>
       <Position11>
         <Filename Value="umain.pas"/>
-        <Caret Line="18" Column="3"/>
+        <Caret Line="12" Column="27"/>
       </Position11>
       <Position12>
         <Filename Value="umain.pas"/>
-        <Caret Line="12" Column="27"/>
+        <Caret Line="37" Column="21" TopLine="7"/>
       </Position12>
       <Position13>
-        <Filename Value="umain.pas"/>
-        <Caret Line="37" Column="21" TopLine="7"/>
+        <Filename Value="utils.pas"/>
+        <Caret Line="9" Column="30"/>
       </Position13>
       <Position14>
         <Filename Value="utils.pas"/>
-        <Caret Line="9" Column="30"/>
+        <Caret Line="5" Column="16"/>
       </Position14>
       <Position15>
         <Filename Value="utils.pas"/>
-        <Caret Line="5" Column="16"/>
+        <Caret Column="21"/>
       </Position15>
       <Position16>
         <Filename Value="utils.pas"/>
-        <Caret Column="21"/>
+        <Caret Line="8"/>
       </Position16>
       <Position17>
         <Filename Value="utils.pas"/>
-        <Caret Line="8"/>
+        <Caret Line="10" Column="3"/>
       </Position17>
       <Position18>
         <Filename Value="utils.pas"/>
-        <Caret Line="10" Column="3"/>
+        <Caret Line="9"/>
       </Position18>
       <Position19>
         <Filename Value="utils.pas"/>
-        <Caret Line="9"/>
+        <Caret Line="10"/>
       </Position19>
       <Position20>
         <Filename Value="utils.pas"/>
-        <Caret Line="10"/>
+        <Caret Line="24" Column="9"/>
       </Position20>
       <Position21>
         <Filename Value="utils.pas"/>
-        <Caret Line="24" Column="9"/>
+        <Caret Line="25" Column="35"/>
       </Position21>
       <Position22>
-        <Filename Value="utils.pas"/>
-        <Caret Line="25" Column="35"/>
+        <Filename Value="globals.pas"/>
+        <Caret Line="23" Column="42" TopLine="3"/>
       </Position22>
       <Position23>
         <Filename Value="globals.pas"/>
-        <Caret Line="23" Column="42" TopLine="3"/>
+        <Caret Line="24" Column="36" TopLine="3"/>
       </Position23>
       <Position24>
         <Filename Value="globals.pas"/>
-        <Caret Line="24" Column="36" TopLine="3"/>
+        <Caret Line="5" Column="30" TopLine="5"/>
       </Position24>
       <Position25>
-        <Filename Value="globals.pas"/>
-        <Caret Line="5" Column="30" TopLine="5"/>
+        <Filename Value="umain.pas"/>
+        <Caret Line="763" Column="46" TopLine="745"/>
       </Position25>
       <Position26>
         <Filename Value="umain.pas"/>
-        <Caret Line="763" Column="46" TopLine="745"/>
+        <Caret Line="976" Column="44" TopLine="950"/>
       </Position26>
       <Position27>
         <Filename Value="umain.pas"/>
-        <Caret Line="976" Column="44" TopLine="950"/>
+        <Caret Line="337" Column="18" TopLine="328"/>
       </Position27>
       <Position28>
         <Filename Value="umain.pas"/>
-        <Caret Line="337" Column="18" TopLine="328"/>
+        <Caret Line="447" Column="11" TopLine="429"/>
       </Position28>
       <Position29>
         <Filename Value="umain.pas"/>
-        <Caret Line="447" Column="11" TopLine="429"/>
+        <Caret Line="148" Column="67" TopLine="135"/>
       </Position29>
       <Position30>
         <Filename Value="umain.pas"/>
-        <Caret Line="148" Column="67" TopLine="135"/>
+        <Caret Line="539" Column="74" TopLine="519"/>
       </Position30>
     </JumpHistory>
     <RunParams>

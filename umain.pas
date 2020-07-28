@@ -789,11 +789,12 @@ begin
 
       // 2020-06-11
       // Sende Serial an das Gateway
-      sSend := 'SendToDevice:' + IntToStr(windowsOpeners[i].ActorID) + ';';
+      // 2020-07-12 sSend := 'SendToDevice:' + IntToStr(windowsOpeners[i].ActorID) + ';';
+      sSend := 'SendToDevice:' +  windowsOpeners[i].ActorTopic  + '=';
       if (windowsOpeners[i].isOpenClose = TOpenClose.Close)  then begin
         if (windowsOpeners[i].doOpenClose = TOpenClose.Open)  then begin
           // Sende an Actor
-          sSend := sSend + '1;';
+          sSend := sSend + '1\n';
           myLazSerial.WriteData(sSend);
           addLinesToMemo(Memo_Serial_TX,'TX: ' + sSend);
 
@@ -806,7 +807,7 @@ begin
       if (windowsOpeners[i].isOpenClose = TOpenClose.Open)  then begin
         if (windowsOpeners[i].doOpenClose = TOpenClose.Close)  then begin
           // Sende an Actor
-          sSend := sSend + '0;';
+          sSend := sSend + '0\n';
           myLazSerial.WriteData(sSend);
           addLinesToMemo(Memo_Serial_TX,'TX: ' + sSend);
           // 2020-06-11 ToDo Wieder raus:
